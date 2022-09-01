@@ -1,7 +1,10 @@
+import iconCart from "./cartWidget";
 const Navbar = () => { 
     return (
 <nav class = "navbar navbar-expand  navbar-dark bg-dark">
         <div class = "container-fluid flex-row-reverse">
+        <div className="collapse navbar-collapse" id="navbarColor02">
+        </div>
             <ul class= "navbar-nav">
                 <li class="nav-item m-2">
                     <a class="nav-link" href="#">P1</a>
@@ -16,7 +19,8 @@ const Navbar = () => {
                     <a class="nav-link" href="#">P4</a>
                 </li>
             </ul>
-        </div>
+            </div>
+            <a href = "#"><img src={iconCart} alt="cart" /></a>
     </nav>
     );
 }
