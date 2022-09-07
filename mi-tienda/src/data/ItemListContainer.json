@@ -1,14 +1,17 @@
 [
     {
       "nombre": "Pintura-1",
-      "valor": 390
+      "valor": 390,
+      "stock": 5
     },
     {
       "nombre": "Pintura-2",
-      "valor": 450
+      "valor": 450,
+      "stock": 6
     },
     {
       "nombre": "Pintura-3",
-      "valor": 600
+      "valor": 600,
+      "stock": 4
     }
 ]
