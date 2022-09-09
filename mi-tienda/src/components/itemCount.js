@@ -1,16 +1,16 @@
 import {React, useState} from 'react';
 
+
 function ItemCount ({stock}) {
-    
-    const [cont, setCont] = useState(1);
+    const [cont, setCont] = useState(0);
+
     function contador(operacion) {
-        if(operacion == "+" && cont < stock) {
+        if(operacion === "+" && cont < stock) {
             setCont(cont + 1)
-        }else if(operacion == "-" && cont > 0) {
+        }else if(operacion === "-" && cont > 0) {
             setCont(cont - 1)
         }
     }
-
     return (
         <>
             <p>
