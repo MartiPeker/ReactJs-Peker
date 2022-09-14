@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "nombre": "Pintura-1", 
+        "valor": 390, 
+        "stock": 5, 
+        "src": "https://img.freepik.com/foto-gratis/pintura-mezclada-espacio-copia_23-2148263567.jpg?w=2000"
+    },
+
+    {
+        "id": 2, 
+        "nombre": "Pintura-2", 
+        "valor": 450, 
+        "stock": 6, 
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb5akj-9xEtlxDovKH3qJlM5oqgiqpGoSvHSEf_vvOXx20low26DIJ1Pae0ZXOGZ2XOHs&usqp=CAU"
+    },
+    {
+        "id": 3, 
+        "nombre": "Pintura-3", 
+        "valor": 600, 
+        "stock": 4, 
+        "src": "https://img.freepik.com/vector-gratis/manchas-pintura-coloridas_1035-7496.jpg"}
+]

@@ -1,7 +1,13 @@
-const Item = [
-    {id: 1, nombre: "Pintura-1", valor: 390, stock: 5},
-    {id: 2, nombre: "Pintura-2", valor: 450, stock: 6},
-    {id: 3, nombre: "Pintura-3", valor: 600, stock: 4}
-]
+//En este componente va solo la estructura del item? Cuando le doy la información? en el ItemList mismo donde la mapeo o en ItemListContainer?
+
+const Item = (props) => {
+    return (
+        <div className="card">            
+            <h4>{props.name}</h4>
+            <img src ={props.src}></img>
+            <p>Valor: ${props.valor}</p>
+        </div>
+      )
+}
 
 export default Item;
