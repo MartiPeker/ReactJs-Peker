@@ -1,10 +1,27 @@
-import Item from "./Item";
+import { useState, useEffect } from "react";
 import ItemDetail from "./ItemDetail";
+import  getItem  from "../components/getItem";
 
-//En este componente iría solo la petición de la información de ItemDetail?
+const ItemDetailContainer = () => {
+    const [details, setDetails] = useState([]);
 
-function ItemDetailContainer(){
+    useEffect(() => {
+        getItem().then((data) => {
+            setDetails(data)
+        });
+
+    }, []);
+
     return (
-        <></>
-
+        <div>
+            <ItemDetail 
+                title={details.title} 
+                src= {details.src} 
+                info={details.info} 
+                value={details.value} 
+                stock={details.stock}/>
+        </div> 
+   )
 }
+
+export default ItemDetailContainer;

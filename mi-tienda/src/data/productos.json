@@ -1,23 +1,27 @@
 [
     {
         "id": 1,
-        "nombre": "Pintura-1", 
-        "valor": 390, 
+        "title": "Pintura 1", 
+        "value": 390, 
         "stock": 5, 
-        "src": "https://img.freepik.com/foto-gratis/pintura-mezclada-espacio-copia_23-2148263567.jpg?w=2000"
+        "src": "https://png.pngtree.com/background/20210715/original/pngtree-colorful-abstract-painting-background-liquid-marbling-paint-background-design-picture-image_1254871.jpg",
+        "info": "Esta es la información del producto."
     },
 
     {
         "id": 2, 
-        "nombre": "Pintura-2", 
-        "valor": 450, 
+        "title": "Pintura 2", 
+        "value": 450, 
         "stock": 6, 
-        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb5akj-9xEtlxDovKH3qJlM5oqgiqpGoSvHSEf_vvOXx20low26DIJ1Pae0ZXOGZ2XOHs&usqp=CAU"
+        "src": "https://png.pngtree.com/background/20210715/original/pngtree-fluid-painting-abstract-texture-intensive-colorful-mix-of-acrylic-vibrant-colors-picture-image_1254870.jpg",
+        "info": "Esta es la información del producto."
     },
     {
         "id": 3, 
-        "nombre": "Pintura-3", 
-        "valor": 600, 
+        "title": "Pintura 3", 
+        "value": 600, 
         "stock": 4, 
-        "src": "https://img.freepik.com/vector-gratis/manchas-pintura-coloridas_1035-7496.jpg"}
+        "src": "https://png.pngtree.com/background/20210715/original/pngtree-colorful-abstract-painting-background-liquid-marbling-paint-background-fluid-painting-abstract-picture-image_1254873.jpg",
+        "info": "Esta es la información del producto."
+    }
 ]

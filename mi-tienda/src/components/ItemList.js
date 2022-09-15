@@ -1,8 +1,29 @@
-//ItemList es solo para mapear?
+import {useState, useEffect} from 'react';
+import getData from '../components/getData';
+import Item from './Item';
 
-function itemList() {
-    {item.map(Item =>
-        <div key={Item.id} className="card m-3 text-center col-2"> Producto: {Item.nombre} ${Item.valor} <ItemCount stock key = {Item.stock}></ItemCount> </div>)}
-}
+const ItemList = () => {
+    <></>
+    const [producto, setItem] = useState([]);
+    useEffect(()=>{
+      getData().then((data) => {
+        setItem(data);
+      })
+    }, []);
+  
+    return (
+      <>
+      <div className="row">
+      {
+        producto.map(item =>
+          <Item key={item.id} 
+          title ={item.title} 
+          src={item.src} 
+          value={item.value}/>)
+      }
+      </div>
+      </>
+    )
+  };
 
-export default itemList();
+export default ItemList;

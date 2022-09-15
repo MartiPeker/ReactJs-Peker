@@ -1,11 +1,11 @@
-//En este componente va solo la estructura del item? Cuando le doy la información? en el ItemList mismo donde la mapeo o en ItemListContainer?
-
-const Item = (props) => {
+const Item = ({id, title, src, value}) => {
     return (
-        <div className="card">            
-            <h4>{props.name}</h4>
-            <img src ={props.src}></img>
-            <p>Valor: ${props.valor}</p>
+        <div className="card m-3 text-center col-5">
+            <p>{id}</p>   
+            <h6 className="card-header">{title}</h6>
+            <img className="card-image m-5" src={src} alt={title}/>
+            <p className="">Valor: ${value}</p>
+            <button className="card-body">Detalle</button>
         </div>
       )
 }
