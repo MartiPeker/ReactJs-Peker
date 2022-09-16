@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom'
+
 const Item = ({id, title, src, value}) => {
     return (
         <div className="card m-3 text-center col-5">
@@ -6,6 +8,8 @@ const Item = ({id, title, src, value}) => {
             <img className="card-image m-5" src={src} alt={title}/>
             <p className="">Valor: ${value}</p>
             <button className="card-body">Detalle</button>
+            <Link to={`/detalles/${id}`}><button>Detalles</button>
+        </Link>
         </div>
       )
 }

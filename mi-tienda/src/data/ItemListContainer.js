@@ -2,14 +2,10 @@ import ItemList from "../components/ItemList.js";
 
 const ItemListContainer = () => {
   return (
-    <> 
-    <ItemList/>
+    <>
+      <ItemList/>
     </>
   )
 };
-  
-
-
-
 
 export default ItemListContainer;
